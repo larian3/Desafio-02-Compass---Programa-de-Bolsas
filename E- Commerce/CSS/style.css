@@ -368,7 +368,7 @@ nav_light #brand {
     background: linear-gradient(90deg, #36D1DC, #5B86E5);
 }
 
-.product_cards{
+.product_cards_header{
     display: flex;
     flex-direction: column; 
     align-items: center;
@@ -407,6 +407,31 @@ nav_light #brand {
     text-align: center;
     margin: 10px;
 }
+
+.product_cards{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    position: absolute;
+    gap: 0px;
+    top: 1800px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Montserrat;
+    text-align: center;
+}
+
+#product_card_01{
+    display: flex;
+    flex-direction: column; 
+    align-items: left;
+    position: absolute;
+    gap: 0px;
+    top: 400px;
+    font-family: Montserrat;
+    text-align: center;
+}
+
 /* Media query para dispositivos móveis
 @media only screen and (max-width: 1400px) {
     nav_dark {
