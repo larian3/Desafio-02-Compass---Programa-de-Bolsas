@@ -413,23 +413,72 @@ nav_light #brand {
     flex-wrap: wrap; 
     justify-content: center;
     position: absolute;
-    gap: 0px;
-    top: 1800px;
-    left: 50%;
+    top: 2400px;
+    left: 790px;
     transform: translate(-50%, -50%);
-    font-family: Montserrat;
-    text-align: center;
+    width: 1200px;
 }
 
-#product_card_01{
-    display: flex;
-    flex-direction: column; 
-    align-items: left;
-    position: absolute;
-    gap: 0px;
-    top: 400px;
+#product_card_01,
+#product_card_02,
+#product_card_03,
+#product_card_04,
+#product_card_05,
+#product_card_06,
+#product_card_07,
+#product_card_08,
+#product_card_09,
+#product_card_10
+{
     font-family: Montserrat;
     text-align: center;
+    margin: 15px;
+}
+
+.product_cards #card_title{
+    font-weight: 700;
+    font-size: 16px;
+    color: #252B42;
+}
+.product_cards #card_description{
+    font-weight: 700;
+    font-size: 14px;
+    color: #737373;
+}
+.product_cards #card_price_1{
+    font-weight: 700;
+    font-size: 16px;
+    color: #BDBDBD;
+}
+.product_cards #card_price_2{
+    font-weight: 700;
+    font-size: 16px;
+    color:#23856D;
+    width: 60px;
+}
+
+.price {
+    display: flex; 
+    justify-content:center; 
+    flex-wrap: wrap;
+}
+
+.button_product_cards button {
+    margin-top: 100px;
+    width: 256px;
+    height: 52px;
+    background: transparent;
+    border: 1px solid #23A6F0;
+    border-radius: 5px;
+    color: #23A6F0;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 50px;
+
+}
+
+#button_card_content_01:hover {
+    background: linear-gradient(90deg, #36D1DC, #5B86E5);
 }
 
 /* Media query para dispositivos móveis
