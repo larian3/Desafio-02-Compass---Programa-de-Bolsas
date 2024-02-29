@@ -54,7 +54,6 @@ nav_dark ul li a {
 
 
 
-
 /* NAVBAR LIGHT */
 nav_light {
     display: flex;
@@ -116,8 +115,8 @@ nav_light #brand {
 
 .hero {
     display:flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; 
+    align-items: center; 
     margin-top: 80px;
     float: left;
     margin-left: 50px;
@@ -193,8 +192,7 @@ nav_light #brand {
     font-family: 'Montserrat';
 }
 
-.clients{
-    
+.clients{  
     position: absolute;
     display: flex;
     width: 1320px;
@@ -400,6 +398,7 @@ nav_light #brand {
     letter-spacing: 0.10000000149011612px;
     text-align: center;
     margin: 10px;
+    color:#252B42;
 }
 
 #problems{
@@ -659,6 +658,7 @@ nav_light #brand {
     letter-spacing: 0.10000000149011612px;
     text-align: center;
     margin: 10px;
+    color:#252B42;
 }
 
 #problems_services{
@@ -821,9 +821,148 @@ nav_light #brand {
 .button_posts button:hover {
     background: linear-gradient(90deg, #36D1DC, #5B86E5);
     color: #FFFFFF;
-    
+
 }
 
+.footer{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 1520px;
+    height: 175px;
+    gap: 80px;
+    top:5200px;
+    left: 0px;
+}
+#bandage{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    background-color: #FAFAFA;
+}
+
+#bandage p{
+    margin-right: 1000px;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Montserrat;
+    color: #252B42;
+}
+
+#bandage svg{
+    margin-right: 20px;
+}
+
+#content_footer{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items:center; 
+    align-items: flex-start;
+}
+
+#content_footer > * {
+    margin-right: 150px; 
+}
+
+#content_footer > :last-child {
+    margin-right: 0; 
+}
+
+#content_footer {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #737373;
+    padding: 0;
+}
+#content_footer a{
+    color: #737373;
+    list-style-type: none;
+    text-decoration: none;
+    font-style: normal;
+}
+#content_footer ul li{
+    list-style-type: none;
+    font-style: normal;
+    padding: 0;
+}
+#content_footer ul{
+    padding: 0;
+}
+
+#company_info p{
+    font-size: 17px;
+    color: #252B42;
+}
+
+#legal p{
+    font-size: 17px;
+    color: #252B42;
+}
+#features p{
+    font-size: 17px;
+    color: #252B42;
+}
+
+#resources p{
+    font-size: 17px;
+    color: #252B42;
+}
+
+#contact p{
+    font-size: 17px;
+    color: #252B42;
+}
+
+#contact #lorem{
+    font-size: 12px;
+    color:#737373;
+}
+
+
+.subscribe{
+    display: flex;
+}
+
+.subscribe input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    height: 30px;
+}
+
+.subscribe button {
+    padding: 10px 20px;
+    background-color:#23A6F0;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    height: 50px;
+}
+
+#message{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    background-color: #FAFAFA;
+}
+
+#message p{
+   
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Montserrat;
+    color:#737373;
+}
 
 /* Media query para dispositivos móveis
 @media only screen and (max-width: 1400px) {
