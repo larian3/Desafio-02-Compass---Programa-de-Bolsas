@@ -324,6 +324,7 @@ nav_light #brand {
     text-align: center;
     line-height: 50px;
     transition: background-color 0.3s ease;
+    font-family: 'Montserrat';
 }
 #button_card_content_02 {
     position: absolute;
@@ -339,6 +340,7 @@ nav_light #brand {
     text-align: center;
     line-height: 50px;
     transition: background-color 0.3s ease;
+    font-family: 'Montserrat';
 }
 #button_card_content_03 {
     position: absolute;
@@ -354,6 +356,7 @@ nav_light #brand {
     text-align: center;
     line-height: 50px;
     transition: background-color 0.3s ease;
+    font-family: 'Montserrat';
 }
 
 #button_card_content_01:hover {
@@ -463,6 +466,10 @@ nav_light #brand {
     flex-wrap: wrap;
 }
 
+.price:hover {
+    background-color:  #00640019;
+}
+
 .button_product_cards button {
     margin-top: 100px;
     width: 256px;
@@ -490,7 +497,7 @@ nav_light #brand {
     top: 3300px;
     left: 400px;
     transform: translate(-50%, -50%);
-    width: 1575px;
+    width: 1580px;
 }
 
 #featured_products_hero_1{
@@ -613,6 +620,16 @@ nav_light #brand {
     font-weight: 400;
 }
 
+#icon_1:hover {
+    background-color:  #0080ff19;
+}
+#icon_2:hover {
+    background-color:  #0080ff19;
+}
+#icon_3:hover {
+    background-color:  #0080ff19;
+}
+
 .featured_posts{
     display: flex;
     flex-direction: column; 
@@ -651,6 +668,159 @@ nav_light #brand {
     letter-spacing: 0.20000000298023224px;
     text-align: center;
     margin: 10px;
+}
+
+.posts{
+    display: flex;
+    align-items: left;
+    position: absolute;
+    top: 450px;
+    left: 190px;
+    width: 500;
+    transform: translate(-50%, -50%);
+    font-family: Montserrat;
+    text-align: center;
+}
+
+#post_01{
+    flex: 1;
+    margin-left: 50px;
+    margin-right: 00px;
+}
+#post_02{
+    flex: 1;
+    margin-left: 450px;
+    margin-right: 50px;
+}
+#post_informations{
+    display: flex;
+    flex-direction: column; 
+    align-items: left;
+    position: absolute;
+    gap: 0px;
+    top: 0px;
+    left: 300px;
+    font-family: Montserrat;
+    text-align: left;
+    width: 300px;
+}
+#post_informations_2{
+    display: flex;
+    flex-direction: column; 
+    align-items: left;
+    position: absolute;
+    gap: 0px;
+    top: 0px;
+    left: 970px;
+    font-family: Montserrat;
+    text-align: left;
+    width: 300px;
+}
+.icones_posts{
+    display: flex;
+    align-items: center; 
+}
+.icones_posts svg{
+    margin-right: 10px;
+}
+.icones_posts #hour{
+    display: flex;
+    align-items: center;
+    margin-right: 10px; 
+    font-size: 12px;
+}
+
+.icones_posts #lessons{
+    display: flex;
+    align-items: center;
+    margin-right: 10px; 
+    font-size: 12px;
+   
+}
+.icones_posts #progress{
+    display: flex;
+    align-items: center;
+    margin-right: 10px; 
+    font-size: 12px;
+}
+
+.sales{
+    display: flex;
+    align-items: center; 
+}
+
+.sales svg{
+    margin-right: 5px;
+}
+
+.price_posts {
+    display: flex; 
+    justify-content:left; 
+    flex-wrap: wrap;
+    width: 200px;
+}
+
+.price_posts #price_posts_1{
+    font-weight: 700;
+    font-size: 16px;
+    color: #BDBDBD;
+    margin-right: 10px;
+}
+.price_posts #price_posts_2{
+    font-weight: 700;
+    font-size: 16px;
+    color:#23856D;
+    width: 60px;
+}
+
+#post_title{
+    color:#23A6F0;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+#post_title_2{
+    margin-bottom: 5px;
+    color:#252B42;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+#post_description{
+    color:#737373;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+.sales{
+    color:#737373;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+.button_posts button {
+    margin-top: 0px;
+    width: 141.14px;
+    height: 44px;
+    background: transparent;
+    border: 1px solid #23A6F0;
+    border-radius: 37px;
+    color: #23A6F0;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.button_posts button:hover {
+    background: linear-gradient(90deg, #36D1DC, #5B86E5);
+    color: #FFFFFF;
 }
 
 
