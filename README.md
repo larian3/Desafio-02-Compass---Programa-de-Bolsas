@@ -4,7 +4,7 @@ Projeto desenvolvido durante o programa de bolsas na Compass.Uol
 
 ## Descrição do Projeto
 
-O projeto em si consiste em uma pagina HTML baseada em um wirefram proposto pelos
+O projeto em si consiste em uma pagina HTML baseada em um wireframe proposto pelos
 instrutores do programa de bolsas.
 
 ### Objetivo do Projeto
