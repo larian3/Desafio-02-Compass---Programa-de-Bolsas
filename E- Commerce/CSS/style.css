@@ -477,8 +477,9 @@ nav_light #brand {
 
 }
 
-.button_product_cards button :hover {
+.button_product_cards :hover {
     background: linear-gradient(90deg, #36D1DC, #5B86E5);
+    color: #FFFFFF;
 }
 
 .featured_products{
@@ -489,11 +490,11 @@ nav_light #brand {
     top: 3300px;
     left: 400px;
     transform: translate(-50%, -50%);
-    width: 1450px;
+    width: 1575px;
 }
 
 #featured_products_hero_1{
-margin: 10px;
+    margin: 10px;
 }
 
 #featured_products_hero_2{
@@ -507,7 +508,7 @@ margin: 10px;
     position: absolute;
     gap: 0px;
     top: 0px;
-    left: 1100px;
+    left: 1150px;
     font-family: Montserrat;
     text-align: left;
 }
@@ -525,10 +526,131 @@ margin: 10px;
 
 #fp_text{
     color: #737373;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     line-height: 20px;
 
+}
+
+.services{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    position: absolute;
+    gap: 0px;
+    top: 3800px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Montserrat;
+    text-align: center;
+
+}
+
+#features_products_services{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    margin: 10px;
+}
+#bestseller_products_services{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+    margin: 10px;
+}
+
+#problems_services{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    margin: 10px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    gap: 0px;
+    top: 400px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Montserrat;
+    text-align: center;
+    width: 1400px;
+}
+
+#icon_1{
+    flex: 1;
+    margin-left: 130px;
+    margin-right: 100px;
+}
+#icon_2{
+    flex: 1;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#icon_3{
+    flex: 1;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#service_title{
+    color: #252B42;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#service_description{
+    color: #737373;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.featured_posts{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    position: absolute;
+    gap: 0px;
+    top: 4400px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Montserrat;
+    text-align: center;
+
+}
+
+#featured_title{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: #23A6F0;
+}
+#featured_title_2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+    margin: 10px;
+}
+
+#problems_services{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    margin: 10px;
 }
 
 
